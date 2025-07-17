@@ -39,4 +39,10 @@ public void printAppointment() {
     System.out.println("Health Professional Details:");
     doctor.printDetails();
     }
+
+public String getPatientMobile() {
+    return patientMobile;
+    }
+
+
 }
