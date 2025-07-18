@@ -1,18 +1,27 @@
-## Getting Started
+## Bradley Smith, Student id: 23945472
+Assignment One - Health Professional Appointment System
+--------------------------------------------------------
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+How to Compile and Run:
 
-## Folder Structure
+1. Open your Java IDE (such as IntelliJ, Eclipse, or VS Code).
+2. Make sure all the `.java` files are in the same project or folder:
+   - HealthProfessional.java
+   - GeneralPractitioner.java
+   - Dietitian.java
+   - Appointment.java
+   - AssignmentOne.java
+3. Compile and run the AssignmentOne.java file.
+   - This is the main file containing the main() method.
 
-The workspace contains two folders by default, where:
+Expected Output:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- The program prints details of 3 General Practitioners and 2 Dietitians.
+- Then it creates 4 patient appointments and prints their details.
+- One appointment is cancelled (Jacob Lee), and the updated list is printed again.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Note:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- The program demonstrates the use of inheritance, object-oriented design, array lists, and basic class interactions.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
